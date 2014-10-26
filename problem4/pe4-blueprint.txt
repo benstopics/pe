@@ -1,0 +1,21 @@
+need:
+a function to check if number is palindrome
+
+loop to check numbers 100 to 999
+	subloop to check numbers i to 999 (all products of previous i's have been checked)
+
+pseudocode:
+# multiply loop
+int i = 100;
+int j = 0;
+while(i<1000) {
+	j = i;
+	for(j<1000) {
+		# check if palindrome
+		num = i*j;
+		
+		int halflen = 
+		j++;
+	}
+	i++;
+}
