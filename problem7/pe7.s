@@ -18,7 +18,7 @@ nthprime:
 _start:
 	movq	$1,%rbx		# i, current number, first inc makes it 2
 startloop:
-	cmpq	$10001,nthprime	# if (nthprime == 6)
+	cmpq	$10001,nthprime	# if (nthprime == 10001)
 	je	startend	# break;
 
 	incq	%rbx		# i++;
